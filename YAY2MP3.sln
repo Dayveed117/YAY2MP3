@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAY2MP3", "YAY2MP3.csproj", "{48539D58-0D94-433B-B2AC-A9B6B2880674}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAY2MP3", "YAY2MP3\YAY2MP3.csproj", "{81F908A2-0DA0-4662-B098-AFF2F2FC65DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAY2MP3.Console", "YAY2MP3.Console\YAY2MP3.Console.csproj", "{E171AE0C-8D06-40D1-9727-C367530B0DE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAY2MP3.Tests", "YAY2MP3.Tests\YAY2MP3.Tests.csproj", "{BB6BB204-FEF8-4889-8E30-293C719E520F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{48539D58-0D94-433B-B2AC-A9B6B2880674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48539D58-0D94-433B-B2AC-A9B6B2880674}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48539D58-0D94-433B-B2AC-A9B6B2880674}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48539D58-0D94-433B-B2AC-A9B6B2880674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F908A2-0DA0-4662-B098-AFF2F2FC65DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F908A2-0DA0-4662-B098-AFF2F2FC65DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F908A2-0DA0-4662-B098-AFF2F2FC65DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F908A2-0DA0-4662-B098-AFF2F2FC65DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E171AE0C-8D06-40D1-9727-C367530B0DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E171AE0C-8D06-40D1-9727-C367530B0DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E171AE0C-8D06-40D1-9727-C367530B0DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E171AE0C-8D06-40D1-9727-C367530B0DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB6BB204-FEF8-4889-8E30-293C719E520F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB6BB204-FEF8-4889-8E30-293C719E520F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB6BB204-FEF8-4889-8E30-293C719E520F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6BB204-FEF8-4889-8E30-293C719E520F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
